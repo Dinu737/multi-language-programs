@@ -1,0 +1,15 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing Python
+
+  build:
+    commands:
+      - echo Running Python Program
+      - python3 numbers.py
+
+artifacts:
+  files:
+    - '**/*'
